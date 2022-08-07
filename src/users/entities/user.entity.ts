@@ -20,9 +20,6 @@ export class User {
   @Prop({ type: String, unique: true, index: true })
   telephone: string;
 
-  @Prop({ type: String })
-  journey: string;
-
   @Prop({ type: Number })
   hoursWorkedDay: number;
 }

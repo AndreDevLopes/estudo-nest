@@ -4,6 +4,5 @@ export class CreateUserDto {
   email: string;
   password: string;
   telephone: string;
-  journey: string;
   hoursWorkedDay: number;
 }
