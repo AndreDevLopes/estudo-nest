@@ -22,6 +22,9 @@ export class User {
 
   @Prop({ type: Number })
   hoursWorkedDay: number;
+
+  @Prop()
+  secretary: string;
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
